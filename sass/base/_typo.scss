@@ -1,0 +1,154 @@
+/*------------------------------------*\
+    #Typography Rules
+\*------------------------------------*/
+
+.font--300 {font-weight: 300}
+.font--400 {font-weight: 400}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headline-font-family;
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  &:hover {
+
+  }
+}
+
+// Font Sizes for Mobile Devices and up
+
+/* These handle massive type */
+
+.giga{
+  font-size:80px;
+  font-size:5rem;     /* 80px */
+  line-height:1.2;    /* 96px */
+}
+.mega{
+  font-size:64px;
+  font-size:4rem;     /* 64px */
+  line-height:1.125;  /* 72px */
+}
+.kilo{
+  font-size:36px;
+  font-size:2.375rem;     /* 36px */
+  line-height:1;      /* 36px */
+}
+
+/* Define headings and their associated classes here. */
+h1,.alpha{
+  font-size:32px;
+  font-size:2rem;
+  line-height:1.25;
+}
+h2,.beta{
+  font-size: 26px;
+  font-size:1.625em;
+  line-height:1.15384615;
+}
+h3,.gamma{
+  font-size:22px;
+  font-size:1.375rem;
+  line-height:1.13636364;
+}
+h4,.delta{
+  font-size:18px;
+  font-size:1.125rem;
+  line-height:1.11111111;
+}
+h5,.epsilon{
+  font-size:16px;
+  font-size:1rem;
+  line-height:1.11111111;
+}
+h6,.zeta{
+  font-size:14px;
+  font-size:0.875rem;
+  line-height:1.11111111;
+}
+
+/* Smaller-than-body-copy sizes here. */
+small,.micro {
+  font-size:12px;
+  font-size:0.75rem;
+  line-height:1.5;
+}
+
+// Styling for Tablet Screens and bigger
+
+@media only screen and (min-width: $mqsm) {
+
+  .giga { }  // Bigger Then h1
+  .mega { }  // Bigger Then h1
+  .kilo{
+    font-size:48px;
+    font-size:3rem;     /* 48px */
+    line-height:1;      /* 48px */
+  }
+
+  h1, .alpha   {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 1.125;
+  }
+  h2, .beta    {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  h3, .gamma   {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  h4, .delta   {
+    line-height: 1.22222222;
+  }
+  h5, .epsilon { }
+  h6, .zeta    { }
+
+  small, .micro {}
+
+  blockquote {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.45833333;
+  }
+
+}
+
+// Styling for Big Screens and up
+
+@media only screen and (min-width: $mqmd) {
+
+  .giga { }  // Bigger Then h1
+  .mega { }  // Bigger Then h1
+  .kilo { }  // Bigger Then h1
+
+  h1, .alpha   {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 1.05;
+  }
+  h2, .beta    {
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+  h3, .gamma   {
+    font-size: 28px;
+    font-size: 1.75rem;
+  }
+  h4, .delta   {
+    line-height: 1.22222222;
+  }
+  h5, .epsilon { }
+  h6, .zeta    { }
+
+  small, .micro {}
+
+
+}

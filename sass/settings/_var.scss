@@ -1,0 +1,33 @@
+$primary:  #EE4236;
+$secondary:#ff785a;
+$black:    #323A45;
+$white:    #ffffff;
+
+$gray: #f9f9fa;
+$nav-item: #8a959e;
+
+
+$body-bg-color: #F3F3F3;
+$link-color: $primary;
+
+//Used for btn styling
+$primary-hover : darken($primary, 10%);
+$primary-active: darken($primary, 10%);
+//Used for a styling
+$secondary-hover: $secondary;
+
+$border-light: #cccccc;
+$nav-contact-text-color: $white;
+
+$main-nav-padding: 15px;
+
+$line-height-base: 1.5;
+$headline-font-family: "Lato";
+$base-font-family: "Lato";
+$body-font-color: $black;
+
+
+//Bootstrap Media Query
+$mqsm: 768px;
+$mqmd: 992px;
+$mqlg: 1200px;
