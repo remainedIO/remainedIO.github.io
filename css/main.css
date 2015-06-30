@@ -1865,4 +1865,12 @@ html {
   background-color: #f4f4f4;
 }
 
+.disclaimer {
+  text-align: center;
+}
+
+.disclaimer___content {
+  color: #8a8a8a;
+}
+
 /*# sourceMappingURL=main.css.map */
