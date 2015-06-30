@@ -1770,7 +1770,6 @@ small, .micro {
 
 .masthead {
   text-align: center;
-  border-bottom: 1px solid #e8e8e8;
   padding: 150px 0;
 }
 
@@ -1829,14 +1828,27 @@ small, .micro {
   }
 }
 
-.disclaimer {
+.emaillist {
+  text-align: center;
   font-size: 14px;
   padding: 15px 0;
   border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
 }
 
-.disclaimer__title, .disclaimer__content {
+.emaillist__title, .emaillist__content {
   color: #8a8a8a;
+}
+
+.required.email {
+  padding: 15px;
+  border: 2px solid #e8e8e8;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.required.email:focus {
+  outline: none;
+  border-color: #262626;
 }
 
 html, body {
