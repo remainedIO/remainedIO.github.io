@@ -1851,6 +1851,10 @@ small, .micro {
   border-color: #262626;
 }
 
+.emaillist--bottom {
+  margin-bottom: 120px;
+}
+
 html, body {
   height: 100%;
   font-family: "Lato";
